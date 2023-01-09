@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    background-color: #362c1b;
+    
+  }
+
+  .container {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    /*background-color: red;*/
+    max-height: 50vw;
+  }
+
+  .clock {
+    width: 40vw;
+    height: 40vw;
+    background-color: white;
+    margin: 0 auto;
+  }
+
+  #digital {
+    margin-top: 1vw;
+    height:10vw;
+  }
+
+  @media (min-width: 1000px)
+  {
+    .container {
+        flex-direction: row;
+    }
+
+    #digital {
+        margin-top: 15vw;
+    }
+
+
+    
+  }
