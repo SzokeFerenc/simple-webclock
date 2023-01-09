@@ -4,7 +4,7 @@
   }
   
   html, body {
-    background-color: #362c1b;
+    background-color: #1a150c;
     
   }
 
@@ -13,30 +13,393 @@
     display: flex;
     flex-direction: column;
     /*background-color: red;*/
-    max-height: 50vw;
+    max-height: 70vw;
   }
 
   .clock {
-    width: 40vw;
-    height: 40vw;
-    background-color: white;
+    width: 50vw;
+    height: 50vw;
+    /*background-color: white;*/
     margin: 0 auto;
   }
 
   #digital {
-    margin-top: 1vw;
+    margin-top: 5vw;
     height:10vw;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 10vw;
+    font-weight: 100;
+    letter-spacing: 1.5vw;
+    text-align: center;
+    border-radius: 1vw;
+    border: #db970f .5vw solid;
   }
 
-  @media (min-width: 1000px)
+  #analogue {
+    border-radius:25vw;
+  }
+
+  .hours {
+    width: 1.5%;
+    height: 8%;
+    background-color: #db970f;
+    position: relative;
+    left: 49.5%;
+  }
+  
+  #twelve,
+  #one,
+  #two,
+  #three,
+  #four,
+  #five,
+  #six,
+  #seven,
+  #eight,
+  #nine,
+  #ten,
+  #eleven,
+  #spointer
+  {
+    /*display: none;*/
+    /*background-color: green;*/
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+    left: 0;
+  }
+  
+  #spointer {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -680vw;
+    transform: rotate(0deg);
+  }
+  
+  #mpointer
+  {
+    /*display: none;*/
+    /*background-color: green;*/
+    width: 45vw;
+    height: 45vw;
+    position: relative;
+    left: 2.5vw;
+    top: -632.5vw;
+    transform: rotate(0deg)
+  }
+  
+  #hpointer
+  {
+    /*display: none;*/
+    /*background-color: green;*/
+    width: 35vw;
+    height: 35vw;
+    position: relative;
+    left: 7.5vw;
+    top: -592.5vw;
+  }
+  
+  #twelve {
+    /*background-color: green;*/
+    position: relative;
+    transform: rotate(0deg);
+  }
+  
+  #one {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -50vw;
+    transform: rotate(30deg);
+  }
+  
+  #two {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -100vw;
+    transform: rotate(60deg);
+  }
+  
+  #three {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -150vw;
+    transform: rotate(90deg);
+  }
+  
+  #four {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -200vw;
+    transform: rotate(120deg);
+  }
+  
+  #five {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -250vw;
+    transform: rotate(150deg);
+  }
+  
+  #six {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -300vw;
+    transform: rotate(180deg);
+  }
+  
+  #seven {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -350vw;
+    transform: rotate(210deg);
+  }
+  
+  #eight {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -400vw;
+    transform: rotate(2400deg);
+  }
+  
+  #nine {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -450vw;
+    transform: rotate(270deg);
+  }
+  
+  #ten {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -500vw;
+    transform: rotate(300deg);
+  }
+  
+  #eleven {
+    /*display: none;*/
+    /*background-color: green;*/
+    top: -550vw;
+    transform: rotate(330deg);
+  }
+  
+  .hourpointer {
+    width: 4%;
+    height: 45%;
+    background-color: #ababab;
+    position: relative;
+    left: 48%;
+    top: 5.22%;
+  }
+  
+  .minutepointer {
+    width: 3.5%;
+    height: 40%;
+    background-color: #c8c8c8;
+    position: relative;
+    left: 48.25%;
+    top: 10%;
+  }
+  
+  .secondpointer {
+    width: 1.5%;
+    height: 40%;
+    background-color: #f4f4f4;
+    position: relative;
+    left: 49.25%;
+    top: 9%;
+  }
+
+
+  @media (min-width: 900px)
   {
     .container {
         flex-direction: row;
     }
 
+    .clock {
+        width: 40vw;
+        height: 40vw;
+    }
+
     #digital {
         margin-top: 15vw;
+        height:10vw;
+        letter-spacing: .7vw;
     }
+
+    #analogue {
+        border-radius:20vw;
+      }
+    
+      .hours {
+        width: 1.5%;
+        height: 8%;
+        background-color: #db970f;
+        position: relative;
+        left: 49.5%;
+      }
+      
+      #twelve,
+      #one,
+      #two,
+      #three,
+      #four,
+      #five,
+      #six,
+      #seven,
+      #eight,
+      #nine,
+      #ten,
+      #eleven,
+      #spointer
+      {
+        /*display: none;*/
+        /*background-color: green;*/
+        width: 40vw;
+        height: 40vw;
+        position: relative;
+        left: 0;
+      }
+      
+      #spointer {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -560vw;
+        transform: rotate(0deg);
+      }
+      
+      #mpointer
+      {
+        /*display: none;*/
+        /*background-color: green;*/
+        width: 35vw;
+        height: 35vw;
+        position: relative;
+        left: 2.5vw;
+        top: -512.5vw;
+        transform: rotate(0deg)
+      }
+      
+      #hpointer
+      {
+        /*display: none;*/
+        /*background-color: green;*/
+        width: 25vw;
+        height: 25vw;
+        position: relative;
+        left: 7.5vw;
+        top: -472.5vw;
+      }
+      
+      #twelve {
+        /*background-color: green;*/
+        position: relative;
+        transform: rotate(0deg);
+      }
+      
+      #one {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -40vw;
+        transform: rotate(30deg);
+      }
+      
+      #two {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -80vw;
+        transform: rotate(60deg);
+      }
+      
+      #three {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -120vw;
+        transform: rotate(90deg);
+      }
+      
+      #four {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -160vw;
+        transform: rotate(120deg);
+      }
+      
+      #five {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -200vw;
+        transform: rotate(150deg);
+      }
+      
+      #six {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -240vw;
+        transform: rotate(180deg);
+      }
+      
+      #seven {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -280vw;
+        transform: rotate(210deg);
+      }
+      
+      #eight {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -320vw;
+        transform: rotate(2400deg);
+      }
+      
+      #nine {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -360vw;
+        transform: rotate(270deg);
+      }
+      
+      #ten {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -400vw;
+        transform: rotate(300deg);
+      }
+      
+      #eleven {
+        /*display: none;*/
+        /*background-color: green;*/
+        top: -440vw;
+        transform: rotate(330deg);
+      }
+      
+      .hourpointer {
+        width: 4%;
+        height: 45%;
+        position: relative;
+        left: 48.5%;
+        top: 5.22%;
+      }
+      
+      .minutepointer {
+        /*display: none;*/
+        width: 3.5%;
+        height: 40%;
+        position: relative;
+        left: 48.5%;
+        top: 38.7%;
+      }
+      
+      .secondpointer {
+        /*display: none;*/
+        width: 1.5%;
+        height: 40%;
+        position: relative;
+        left: 49.5%;
+        top: 60%;
+      }
+    
 
 
     
