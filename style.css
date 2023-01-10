@@ -25,10 +25,10 @@
 
   #digital {
     margin-top: 5vw;
-    height:10vw;
+    height:11vw;
     font-family: 'Exo 2', sans-serif;
     font-size: 10vw;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 1.5vw;
     text-align: center;
     border-radius: 1vw;
@@ -79,12 +79,12 @@
   #mpointer
   {
     /*display: none;*/
-    /*background-color: green;*/
+    /*background-color: rgba(0, 128, 0, 0.29);*/
     width: 45vw;
     height: 45vw;
     position: relative;
     left: 2.5vw;
-    top: -632.5vw;
+    top: -632.3vw;
     transform: rotate(0deg)
   }
   
@@ -97,6 +97,7 @@
     position: relative;
     left: 7.5vw;
     top: -592.5vw;
+    transform: rotate(0deg)
   }
   
   #twelve {
@@ -187,7 +188,7 @@
     height: 45%;
     background-color: #ababab;
     position: relative;
-    left: 48%;
+    left: 48.5%;
     top: 5.22%;
   }
   
@@ -196,7 +197,7 @@
     height: 40%;
     background-color: #c8c8c8;
     position: relative;
-    left: 48.25%;
+    left: 48.5%;
     top: 10%;
   }
   
@@ -205,8 +206,8 @@
     height: 40%;
     background-color: #f4f4f4;
     position: relative;
-    left: 49.25%;
-    top: 9%;
+    left: 49.5%;
+    top: 10%;
   }
 
 
@@ -224,20 +225,21 @@
     #digital {
         margin-top: 15vw;
         height:10vw;
-        letter-spacing: .7vw;
+        font-size: 9vw;
+        letter-spacing: .5vw;
     }
 
     #analogue {
         border-radius:20vw;
-      }
+    }
     
-      .hours {
+    .hours {
         width: 1.5%;
         height: 8%;
         background-color: #db970f;
         position: relative;
         left: 49.5%;
-      }
+    }
       
       #twelve,
       #one,
@@ -264,7 +266,7 @@
       #spointer {
         /*display: none;*/
         /*background-color: green;*/
-        top: -560vw;
+        top: -540vw;
         transform: rotate(0deg);
       }
       
@@ -276,7 +278,7 @@
         height: 35vw;
         position: relative;
         left: 2.5vw;
-        top: -512.5vw;
+        top: -502.5vw;
         transform: rotate(0deg)
       }
       
@@ -388,7 +390,7 @@
         height: 40%;
         position: relative;
         left: 48.5%;
-        top: 38.7%;
+        top: 10.5%;
       }
       
       .secondpointer {
@@ -397,7 +399,7 @@
         height: 40%;
         position: relative;
         left: 49.5%;
-        top: 60%;
+        top: 10.5%;
       }
     
 

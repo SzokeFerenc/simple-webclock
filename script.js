@@ -50,6 +50,7 @@ function rotateElem(secdeg, mindeg, hourdeg) {
     /*document.getElementById('digiclock').style.bottom = bottompos;*/
     /*document.body.style.background = hexColor;*/
     document.getElementById('digital').style.color = hexColor;
+    document.getElementById('digital').style.borderColor = hexColor;
     
     var secdeg = 6 * (date.getSeconds()+1);
     var mindeg = 6 * (date.getMinutes());
