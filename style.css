@@ -26,11 +26,12 @@
   #digital {
     margin-top: 5vw;
     height:11vw;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 10vw;
-    font-weight: 400;
-    letter-spacing: 1.5vw;
+    font-weight: 100;
+    letter-spacing: 1vw;
     text-align: center;
+    padding: 2%;
     border-radius: 1vw;
     border: #db970f .5vw solid;
   }
